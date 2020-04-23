@@ -13,7 +13,7 @@ curl https://raw.githubusercontent.com/loiccoyle/blm_header_repo/master/dl_heade
 If you want to regenerate the headers, you can by:
 ```
 git clone https://github.com/loiccoyle/blm_header_repo
-cd BLM_header_repo
+cd blm_header_repo
 make dependencies
 make blm_headers
 ```
