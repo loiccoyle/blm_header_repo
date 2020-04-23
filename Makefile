@@ -4,7 +4,7 @@ dependencies:
 	pip install -r requirements.txt
 
 blm_headers:
-	python generate_headers.py
+	./generate_headers.py
 
 clean:
 	rm headers/*
