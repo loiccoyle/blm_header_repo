@@ -13,7 +13,7 @@ LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.INFO)
 
 VEC_VAR = 'LHC.BLMI:LOSS_RS09'
-DESTINATION_FOLDER = Path('headers_3')
+DESTINATION_FOLDER = Path('headers')
 HEADER_MAKER_KWARGS = {
         'look_forward': '120M',
         'look_back': '0M',
