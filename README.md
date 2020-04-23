@@ -3,6 +3,12 @@ BLM headers are no fun to deal with.
 
 Check the [`headers`](./headers) folder for some generated BLM headers.
 
+# Get the headers
+To download just the headers run the [`dl_headers.py`](./dl_headers.py) script, from a terminal:
+```
+curl https://raw.githubusercontent.com/loiccoyle/blm_header_repo/master/dl_headers.py | python3
+```
+
 # Do it yourself
 If you want to regenerate the headers, you can by:
 ```
