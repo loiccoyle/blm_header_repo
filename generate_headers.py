@@ -71,8 +71,8 @@ if __name__ == '__main__':
                            for b in fill['beamModes']])
         LOGGER.info(f'Fill info:\n\t' + msg)
         t_data = [b for b in fill['beamModes'] if b['mode'] == 'INJPROT'][0]
+        # set requested time to the start of INJPROT
         t_data = t_data['startTime']
-        # t_data = round((t_data['startTime'] + t_data['endTime']) / 2)
         # make the header
         hm = HeaderMaker(t_data, **HEADER_MAKER_KWARGS)
         try:
