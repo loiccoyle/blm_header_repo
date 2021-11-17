@@ -1,4 +1,4 @@
+git+git://github.com/loiccoyle/blm_header
+tqdm
 pytimber
 pandas
-blm_header
-tqdm
